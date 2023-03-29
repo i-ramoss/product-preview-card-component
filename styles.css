@@ -19,3 +19,106 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
+
+p {
+  font-size: 1.4rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-color: var(--cream);
+}
+
+.container {
+  display: flex;
+
+  max-width: 55rem;
+  max-height: 40rem;
+}
+
+.image {
+  height: 40rem;
+  width: 27.5rem;
+  background: url("./images/image-product-desktop.jpg") center / cover no-repeat;
+  border-radius: 0.8rem 0 0 0.8rem;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.8rem;
+
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+
+.category,
+.description,
+button p,
+s {
+  font-family: "Montserrat", sans-serif;
+}
+
+.name,
+.price {
+  font-family: "Fraunces", sans-serif;
+}
+
+.category {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: var(--dark-greyish-blue);
+  font-size: 1.1rem;
+  opacity: 0.7;
+}
+
+.name {
+  color: var(--very-dark-blue);
+  font-size: 3rem;
+}
+
+.description,
+.price s {
+  color: var(--dark-greyish-blue);
+  opacity: 0.9;
+}
+
+.description {
+  line-height: 2.2rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.price p {
+  color: var(--dark-cyan);
+  font-size: 3rem;
+}
+
+.price s {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  padding: 1.5rem 0;
+  background-color: var(--dark-cyan);
+  border-radius: 0.8rem;
+  color: var(--white);
+  font-weight: bold;
+}
+
